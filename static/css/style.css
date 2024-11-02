@@ -1,0 +1,50 @@
+body{
+   font-size: 3em;
+   font-style:  'IBM Plex Mono';
+   background-color:#8fb996;
+   color:#31572c;
+}
+h1{
+   color: #709775;
+   background-color:#415d43;
+   padding: 10px;
+   border: 5px solid #31572c;
+}
+p{
+color: #415d43;
+   font-size: 2em;
+   font-style:  'cormorant garamond';
+}
+h2{
+font-size: 2em;
+   font-style:  'IBM Plex Mono';
+   background-color:#8fb996;
+   color:#31572c;
+}
+input{
+font-size: 2em;
+   font-style:  'IBM Plex Mono';
+   background-color:#8fb996;
+   color:#415d43;
+   padding: 10px;
+   border: 5px solid #31572c;
+}
+button{
+font-size: 2em;
+   font-style:  'IBM Plex Mono';
+   color:#8fb996;
+   background-color:#415d43;
+   padding: 10px;
+   border: 5px solid #31572c;
+}
+nav{
+font-size: 3em;
+   font-style:  'IBM Plex Mono';
+   background-color:#;
+   padding: 10px;
+   border: 5px solid #31572c;
+}
+nav a{
+text-decoration:none;
+color:#415d43;
+}

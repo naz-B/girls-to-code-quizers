@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+<div id="index">
+<nav>
+    <a href="/">Home</a>
+    <a href="/game">Play Game</a>
+    <a href="/about">About</a>
+ </nav>
+</div>
+<div class="content2">
+    <h1>Guess the Number</h1>
+    <form action="/game" method="post">
+       <input type="number" name="guess" placeholder="Enter your guess" required>
+       <button type="submit">submit</button>
+    </form>
+</div>
+<div id="images">
+    <img src="{{url_for('static',filename='images/code.png')}}">
+</div>
+{% if message %}
+    <p>{{message}}</p>
+{% endif %}
+</body>
+</html>
